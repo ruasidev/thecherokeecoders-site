@@ -141,6 +141,46 @@ section {
     z-index: 2;
 }
 
+.vp-application {
+    background-color: #d48849;
+}
+
+.custom-shape-divider-bottom-1661131341 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1661131341 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 201px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1661131341 .shape-fill {
+    fill: #d48849;
+}
+
+.vp-application a {
+    color: #333333;
+}
+
+.vp-application a:hover {
+    animation: vp-app-dothing 0.3s linear infinite;
+}
+
+@keyframes vp-app-dothing {
+    0%{color: #333333;}
+    50%{color: #666666}
+    100%{color: #333333;}
+}
+
 .heading {
     margin-left: 50px;
 }
